@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recife</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-image: linear-gradient(90deg, purple, darkblue, rgb(23, 164, 23), orange, rgb(255, 0, 72));
+            font-weight: bold;
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            overflow: hidden;
+            display: flex;
+            width:70%;
+            border-top-left-radius: 100px;
+        }
+
+        .card img {
+            width: 800px;
+            height: auto;
+            border-radius: 10px;
+            border-top-left-radius: 100px;
+        }
+
+        .card img:hover{
+            width: 600px;
+        }
+
+        .card-content {
+            padding: 40px;
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 1em;
+            color: #333;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .sombra {
+            box-shadow: 5px 10px 20px rgb(0, 0, 0, 0.7);
+            border-style: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="sombra">
+        <h1>Recife</h1>
+        <p>Explore os encantos da cidade mais famosa do Nordeste.</p>
+    </header>
+    
+    <div class="container">
+        <div class="card sombra">
+            <img src="imagens/marco-zero.webp" alt="Recife ,Pernambuco">
+            <div class="card-content">
+                <h2 class="card-title" style="color:orangered">Recife, Pernambuco</h2>
+                <p class="card-text">O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval.</p>
+                    <p><ul>
+                        <li>Visitar o <em>Parque de Esculturas</em> de Francisco Brennand;</li>
+                        <li>Explorar o Centro Cultural dos Correios;</li>
+                        <li>Conhecer o <strong>Paco do Frevo</strong>, um museu dedicado ao frevo, ritmo musical típico de Pernambuco.</li>
+                    </ul></p>
+            </div>
+           
+        </div>
+                 
+      
+    </div>
+    
+    <footer>
+        <p>© 2024 Explore Nordeste | Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
